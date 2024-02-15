@@ -1,0 +1,80 @@
+/* Use a custom font for the web page */
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+/* Use a light gray background color for the body */
+body {
+    background-color: #f0f0f0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Use a fixed width and a center alignment for the container div */
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+/* Use a dark blue background color and a white text color for the header div */
+.header {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+}
+
+/* Use a large font size and a bold font weight for the h1 element */
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* Use a white background color and a box shadow for the form div */
+.form {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Use a medium font size and a bold font weight for the label element */
+label {
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    margin: 10px 0;
+}
+
+/* Use a medium font size and a light gray border for the input and select elements */
+input, select {
+    font-size: 18px;
+    border: 1px solid #cccccc;
+    padding: 5px;
+    width: 100%;
+}
+
+/* Use a dark blue background color and a white text color for the button element */
+button {
+    background-color: #003366;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    width: 100%;
+    margin: 20px 0;
+}
+
+/* Use a hover effect to change the background color and the cursor for the button element */
+button:hover {
+    background-color: #0066cc;
+    cursor: pointer;
+}
+
+/* Use a white background color and a box shadow for the result div */
+.result {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Use a medium font size and a bold font weight for the h3 element */
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
